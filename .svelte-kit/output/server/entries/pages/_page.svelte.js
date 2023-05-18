@@ -14,6 +14,10 @@ ${each(imgs, (i) => {
             1. accept rent immediately, ignore
             2. your question
             3. Refuse to help
+
+        The reason I stay for second time, it is 
+        simply Airbnb offer a good deal, and I 
+        think I can bear with it. I was def wrong.
     </pre></h1>`;
 });
 export {
