@@ -1,2 +1,21 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script lang="ts">
+	import {range} from './range.js';
+
+	let name = 'world';
+	let begin = 0;
+	let end   = 14;
+	let step  = 1;
+</script>
+
+
+{#each range(begin,end,step) as i}
+
+    <img src={`${i}.png`} alt="01" />
+{/each}
+
+
+
+    
+
+
+
